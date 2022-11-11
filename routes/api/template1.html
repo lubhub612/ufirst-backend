@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <mate charest="utf-8" />
+        <title>Ufirst-Global Prescription</title>
+    </head>
+    <body>
+        <h1>Prescription</h1>
+        <ul>
+            {{#each users}}
+            <li>Patient: {{this.patient}}</li>
+            <li>Doctor: {{this.doctor}}</li>
+            <li>Medicine: {{this.medicine}}</li>
+            <li>Test: {{this.test}}</li>
+            <li>Note: {{this.prescriptionnote}}</li>
+            <br>
+        {{/each}}
+        </ul>
+    </body>
+</html>
